@@ -1,0 +1,9 @@
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+server-->browser: HTML-code
+
+note over browser:
+Content is manipulated by JavaScript in the browser
+end note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: {content: “text”,date: “2020-11-06T06:45:16.027Z”}
